@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseVisualiser", "DatabaseVisualiser\DatabaseVisualiser.csproj", "{3FB0ADEC-4C59-475D-BFA2-D0C1F9A565C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB0ADEC-4C59-475D-BFA2-D0C1F9A565C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB0ADEC-4C59-475D-BFA2-D0C1F9A565C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB0ADEC-4C59-475D-BFA2-D0C1F9A565C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB0ADEC-4C59-475D-BFA2-D0C1F9A565C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E3A9BE7-2DE9-4A2D-A1CE-16001F983155}
+	EndGlobalSection
+EndGlobal

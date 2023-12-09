@@ -1,0 +1,39 @@
+﻿@page "/read-tables"
+@using DatabaseVisualiser.Data;
+@inject IDbService DbService
+
+<h3>List of tables</h3>
+
+@if (tableNames == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Table Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tableName in tableNames)
+            {
+                <tr>
+                    <td>
+                        @tableName
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    IEnumerable<string> tableNames;
+
+    protected override async Task OnInitializedAsync()
+    {
+        tableNames = await DbService.GetTableNames();
+    }
+}
